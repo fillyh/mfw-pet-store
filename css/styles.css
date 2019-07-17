@@ -4,15 +4,27 @@
     height:60px;
 }
 
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.featured p{
+    text-align: left;
+}
+
 header h1{
-    color: pink;
+    color: #FD7272;
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
 }
 
-.nav-pills > li.active > a {
-    color: #5c433f;
-    background-color: #eeddcd;
+.nav-pills > li.active > a, aside .nav-pills > li> a  {
+    color: #ffffff;
+    background-color: #FD7272;
+}
+
+header .nav-pills > li> a {
+    color: #FD7272;
 }
 
 .nav-pills{
@@ -32,5 +44,57 @@ header h1{
     font-weight: 700;
     color:#fff;
     font-size: 50px;
+    margin-top:95px;
     
+}
+
+
+.img_box{
+    background-color: #ffcccc;
+    padding-top:15px;
+    width:95%;
+}
+
+.col-sm-12>button{
+    margin-bottom:15px;
+
+}
+
+.product button{
+    font-size:15px;
+}
+
+aside p{
+    padding-top:10px;
+}
+
+
+.vl{
+    border-left:2px solid black;
+
+}
+
+.copyright{
+    padding-top:40px;
+
+}
+
+.soc_med{
+    list-style-type: none;
+    padding:0;
+}
+
+.soc_med li i{
+    padding-right: 5px;
+}
+
+footer .logo{
+    height:70px;
+}
+
+footer{
+    background-color: #ffcccc;
+    margin-top:70px;
+    padding-bottom:10px;
+    padding-top:20px;
 }
