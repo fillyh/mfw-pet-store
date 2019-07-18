@@ -23,10 +23,19 @@ header h1{
     background-color: #FD7272;
 }
 
+aside .nav-pills > li> a:hover{
+    color: #FD7272;
+    
+}
+
 header .nav-pills > li> a {
     color: #FD7272;
 }
 
+header .nav-pills > li> a:hover {
+    color: #ffffff;
+    background-color: #FD7272;
+}
 .nav-pills{
     margin-top: 15px;
 }
