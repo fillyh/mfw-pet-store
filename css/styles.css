@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
+
+.logo{
+    height:60px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.featured p{
+    text-align: left;
+}
+
+header h1{
+    color: #FD7272;
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a, aside .nav-pills > li> a  {
+    color: #ffffff;
+    background-color: #FD7272;
+}
+
+aside .nav-pills > li> a:hover{
+    color: #FD7272;
+    
+}
+
+header .nav-pills > li> a {
+    color: #FD7272;
+}
+
+header .nav-pills > li> a:hover {
+    color: #ffffff;
+    background-color: #FD7272;
+}
+.nav-pills{
+    margin-top: 15px;
+}
+
+.jumbotron{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position:80%, 20%;
+    height: 450px;
+    background-color:#f4f2f3;
+}
+
+.jumbotron h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    font-size: 50px;
+    margin-top:95px;
+    
+}
+
+
+.img_box{
+    background-color: #ffcccc;
+    padding-top:15px;
+    width:95%;
+    margin-left: 2.5%;
+    margin-top:2.5%;
+}
+
+.img_box>img{
+    width: 100%;
+}
+
+.col-sm-12>button{
+    margin-bottom:15px;
+
+}
+
+.product button{
+    font-size:15px;
+}
+
+
+aside p{
+    padding-top:10px;
+}
+
+
+.vl{
+    border-left:2px solid black;
+
+}
+
+.copyright{
+    padding-top:40px;
+
+}
+
+.soc_med{
+    list-style-type: none;
+    padding:0;
+}
+
+.soc_med li i{
+    padding-right: 5px;
+}
+
+footer .logo{
+    height:70px;
+}
+
+footer{
+    background-color: #ffcccc;
+    margin-top:70px;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+
+@media(max-width:768px){
+    .logo-nav>.logo{
+        display: none;
+    }
+
+}
+
+
+/* @media(max-width:768px){
+    .centered{
+        float:none;
+        margin:0 auto;
+
+    }
+
+    .nav{
+        padding-top:0px;
+        padding-bottom:10px;
+        top:5px;
+    }
+
+    .social {
+        margin:20px 10px 0px;
+    }
+
+    aside{
+        margin-bottom:60px;
+    }
+} */
