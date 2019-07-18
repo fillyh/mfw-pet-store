@@ -64,6 +64,10 @@ header .nav-pills > li> a:hover {
     width:95%;
 }
 
+.img_box>img{
+    width: 100%;
+}
+
 .col-sm-12>button{
     margin-bottom:15px;
 
