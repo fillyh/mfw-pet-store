@@ -121,26 +121,3 @@ footer{
     }
 
 }
-
-
-/* @media(max-width:768px){
-    .centered{
-        float:none;
-        margin:0 auto;
-
-    }
-
-    .nav{
-        padding-top:0px;
-        padding-bottom:10px;
-        top:5px;
-    }
-
-    .social {
-        margin:20px 10px 0px;
-    }
-
-    aside{
-        margin-bottom:60px;
-    }
-} */
